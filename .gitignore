@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.key
+
+# Runtime outputs
+cloned_repos/
+compiled_repos/
+compiled_results/
+all_logs/
+autogen_logs/
+orchestrator_logs/
+postprocessed_results/
+validation/
+validation_analysis/
+validation_test/
+
+# Build artifacts
+yaml_files/
+workspace/
+vector_store/
+*.out
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache
+.cache/
+.chromadb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+.venv/
+
+
+# Baseline runtime outputs
+src/compilation_baselines/GHCC/ghcc/archive_folder/
+src/compilation_baselines/GHCC/ghcc/binary_repos/
+src/compilation_baselines/GHCC/ghcc/cloned_repos/
+src/compilation_baselines/Assemblage/binaries/
+src/compilation_baselines/CompileAgent/compiled_repos*/
+src/compilation_baselines/CompileAgent/cloned_repos*/
+src/compilation_baselines/CompileAgent/logs*/
+*.ilk
+*.pch
+*.pdb
+*.obj
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+nohup*.out

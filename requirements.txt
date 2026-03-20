@@ -1,0 +1,26 @@
+requests
+numpy
+torch
+tqdm
+pyautogen>=0.3.1,<0.4
+# flash-attn
+openai
+anthropic
+google-genai
+beautifulsoup4
+langchain
+langchain-community
+langchain-chroma
+pandas
+scikit-learn
+flaml[autogen]
+cxxfilt
+tavily-python
+nest_asyncio
+flutes
+python-dotenv
+docker
+pyelftools
+pyjoern
+markdownify
+playwright

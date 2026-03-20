@@ -1,0 +1,921 @@
+{
+  "srs": [
+    "srs"
+  ],
+  "twemproxy": [
+    "nutcracker"
+  ],
+  "MNN": [
+    "libMNN.so",
+    "libMNN_Express.so"
+  ],
+  "renderdoc": [
+    "librenderdoc.so",
+    "qrenderdoc.so",
+    "renderdoc.so"
+  ],
+  "Whisper": [],
+  "GuiLite": [
+    "libGuiLite.a"
+  ],
+  "linux-kernel-exploits": [],
+  "gdal": [
+    "libgdal.so.37.3.12.0"
+  ],
+  "tbox": [
+    "libtbox.a"
+  ],
+  "openwrt": [],
+  "telegram-bot-api": [
+    "telegram-bot-api"
+  ],
+  "libuv": [],
+  "level-ip": [
+    "lvl-ip"
+  ],
+  "MemoryModule": [],
+  "sxhkd": [
+    "sxhkd"
+  ],
+  "nanobind": [
+    "nanobind-config.cmake"
+  ],
+  "Pangolin": [
+    "libpango_glgeometry.so.0.9.3",
+    "libpango_plot.so.0.9.3",
+    "libpango_tools.so.0.9.3",
+    "libpango_packetstream.so.0.9.3",
+    "libtinyobj.so.0.9.3",
+    "libpango_video.so.0.9.3",
+    "libpango_python.so.0.9.3",
+    "libpango_geometry.so.0.9.3",
+    "pypangolin.cpython-310-x86_64-linux-gnu.so",
+    "libpango_opengl.so.0.9.3",
+    "libpango_core.so.0.9.3",
+    "libpango_windowing.so.0.9.3",
+    "libpango_display.so.0.9.3",
+    "libpango_vars.so.0.9.3",
+    "libpango_scene.so.0.9.3",
+    "libpango_image.so.0.9.3"
+  ],
+  "Walnut": [],
+  "A-LOAM": [],
+  "ctypes.sh": [
+    "ctypes.so"
+  ],
+  "TexasSolver": [
+    "TexasSolverGui"
+  ],
+  "Team-Win-Recovery-Project": [],
+  "shelly-homekit": [],
+  "dhewm3": [
+    "base.so",
+    "d3xp.so",
+    "dhewm3"
+  ],
+  "poedit": [
+    "poedit"
+  ],
+  "hed": [],
+  "Clipper2": [],
+  "pslab-firmware": [
+    "pslab-firmware.elf",
+    "pslab-firmware.hex",
+    "pslab-firmware.map"
+  ],
+  "SCShell": [],
+  "file": [
+    "bin"
+  ],
+  "trapcc": [],
+  "books": [],
+  "RtspServer": [
+    "rtsp_h264_file",
+    "rtsp_pusher",
+    "rtsp_server"
+  ],
+  "realm-core": [
+    "realm-apply-to-state-dbg",
+    "realm-hist-dbg",
+    "realm-inspect-client-realm-dbg",
+    "realm-print-changeset-dbg",
+    "realm2json-dbg",
+    "realmd-dbg"
+  ],
+  "stderred": [
+    "libpolyfill.so",
+    "libstderred.so",
+    "libtest_stderred.so",
+    "test_runner"
+  ],
+  "patcher9x": [
+    "bpatcher.h.o",
+    "makepatch.h.0",
+    "LLM actually failed to compile this repo"
+  ],
+  "Multi_Sensor_Fusion": [
+    "libcamera.so",
+    "libdata.so",
+    "libfilter.so",
+    "libimu.so",
+    "libprocess.so",
+    "libtools.so",
+    "mscnav_bin",
+    "Ideally this repo requires us to patch a file but there are cmake flags which can set macros using"
+  ],
+  "NPP_HexEdit": [],
+  "xz": [
+    "lzmainfo",
+    "xzdiff",
+    "xzgrep",
+    "xzless",
+    "xzmore",
+    "xz",
+    "lzmadec",
+    "xzdec"
+  ],
+  "captcha_crack": [],
+  "ElasticReconstruction": [],
+  "TriforceAFL": [],
+  "SSVOpenHexagon": [],
+  "termux-ndk": [],
+  "QHotkey": [
+    "libqhotkey.a",
+    "mocs_compilation.cpp.o",
+    "qhotkey.cpp.o",
+    "qhotkey_x11.cpp.o"
+  ],
+  "parrot": [
+    "parrot",
+    "parrot-nqp",
+    "parrot-ops2c",
+    "parrot-prove",
+    "libparrot.so.8.2.0"
+  ],
+  "virtual-audio-capture-grabber-device": [],
+  "fmod-gdextension": [],
+  "python-zstandard": [],
+  "libsrt": [
+    "counterpp",
+    "enc",
+    "histogram",
+    "histogrampp",
+    "imgc",
+    "bench",
+    "counter",
+    "imgd",
+    "stest",
+    "table"
+  ],
+  "MINS": [],
+  "uWindowCapture": [],
+  "m4l-connection-kit": [],
+  "Lyra": [],
+  "v1": [],
+  "iotkit-embedded": [
+    "libiot_sdk.a",
+    "libalicrypto.a",
+    "libcurl.a",
+    "libcurl.so",
+    "libid2client.a",
+    "libiot_hal.a",
+    "libiot_tls.a",
+    "libitls.a",
+    "libkm.a",
+    "libmbedcrypto.a",
+    "libplat_gen.a"
+  ],
+  "Hands-On-Machine-Learning-with-CPP": [],
+  "INSTA": [],
+  "OpenGL-Renderer": [
+    "MP-APS"
+  ],
+  "that_editor": [
+    "e"
+  ],
+  "LISP": [
+    "ikomplodin",
+    "komplott"
+  ],
+  "myMPD": [
+    "mympd"
+  ],
+  "mastering-stm32": [],
+  "DuckX": [
+    "libduckx.a",
+    "duckx.cpp.o",
+    "zip.c.o"
+  ],
+  "CallStack-Spoofer": [],
+  "WDL": [],
+  "winter": [],
+  "FlopperZiro": [],
+  "nap": [
+    "artnetreceive",
+    "artnetsend",
+    "audioanalysis",
+    "audioplayback",
+    "audiovisualfft",
+    "blobtrace",
+    "computeflocking",
+    "computeparticles",
+    "copystamp",
+    "curveball",
+    "dynamicgeo",
+    "example",
+    "fbxconverter",
+    "heightmap",
+    "helloworld",
+    "keygen",
+    "licensecheck",
+    "licensegenerator",
+    "lightsandshadow",
+    "linemorphing",
+    "multiwindow",
+    "oscmidi",
+    "paintobject",
+    "rotatingtexcube",
+    "sequencer",
+    "skybox",
+    "spotlight",
+    "udpreceive",
+    "udpsend",
+    "videomodulation",
+    "vinyl",
+    "webportal",
+    "websocketserver",
+    "napkin"
+  ],
+  "chigraph": [],
+  "Dwarf-Therapist": [
+    "dwarftherapist"
+  ],
+  "dexdump": [],
+  "dbcc": [
+    "dbcc"
+  ],
+  "python-Levenshtein": [],
+  "aocla": [
+    "aocla"
+  ],
+  "rocketmq-client-cpp": [
+    "OrderProducer",
+    "OrderlyPushConsumer",
+    "Producer",
+    "SyncProducer",
+    "TransactionProducer",
+    "librocketmq.so",
+    "AsyncProducer",
+    "AsyncPushConsumer",
+    "BatchProducer",
+    "CAsyncProducer",
+    "CBatchProducer",
+    "COrderlyAsyncProducer",
+    "PullConsumeMessage",
+    "PullConsumer",
+    "PushConsumeMessage",
+    "PushConsumer",
+    "PushConsumerOrderly",
+    "SendDelayMsg"
+  ],
+  "HIVIEW": [],
+  "megaglest-source": [
+    "g2xml",
+    "megaglest_editor",
+    "megaglest_g3dviewer",
+    "megaglest"
+  ],
+  "FaceRecognizer": [],
+  "SuperMarioOdysseyOnline": [],
+  "rover": [
+    "rover"
+  ],
+  "CYD-Klipper": [],
+  "pure-lang": [
+    "pure",
+    "libpure.so.8"
+  ],
+  "RPCSCAN": [],
+  "TinyBIOS": [
+    "tinybios.elf"
+  ],
+  "spacenavd": [
+    "spacenavd"
+  ],
+  "Malware-Development-for-Ethical-Hackers": [],
+  "Turbo-Base64": [
+    "libtb64.so"
+  ],
+  "Brayns": [
+    "Brayns"
+  ],
+  "sole": [],
+  "fsarchiver": [
+    "fsarchiver"
+  ],
+  "Tiny4kOLED": [],
+  "HOLLOW": [
+    "hollow.x64.o"
+  ],
+  "statismo": [],
+  "vxsig": [
+    "vxsig"
+  ],
+  "berkeley-softfloat-3": [
+    "softfloat.a"
+  ],
+  "munge": [
+    "munge",
+    "remunge",
+    "unmunge"
+  ],
+  "lintel": [],
+  "semu": [
+    "semu"
+  ],
+  "ggmorse": [
+    "ggmorse-from-file",
+    "ggmorse-gui",
+    "ggmorse-to-file"
+  ],
+  "RedisModules-ExecuteCommand-for-Windows": [],
+  "Spidermonkey": [],
+  "esphome-xiaomi_bslamp2": [],
+  "grok": [],
+  "berserk": [
+    "berserk"
+  ],
+  "thpp": [],
+  "Proxifier-For-Linux": [
+    "proxifier"
+  ],
+  "tensorrt_starter": [],
+  "minecraft-pi-reborn": [],
+  "building-c2-implants-in-cpp": [],
+  "vtrunkd": [],
+  "signalflow": [],
+  "Remote": [],
+  "TinyWireM": [],
+  "q4wine": [
+    "q4wine",
+    "q4wine-helper",
+    "q4wine-cli"
+  ],
+  "AndroidPtraceInject": [],
+  "nginx-http-shibboleth": [
+    "ngx_http_shibboleth_module.so"
+  ],
+  "pysqlite3": [
+    "_sqlite3.cpython-310-x86_64-linux-gnu.so"
+  ],
+  "pg_amqp": [
+    "pg_amqp.so"
+  ],
+  "jarkViewer": [],
+  "bimpy": [
+    "_bimpy.cpython-310-x86_64-linux-gnu.so"
+  ],
+  "jsonsl": [
+    "libjsonsl.a"
+  ],
+  "Lampray": [
+    "Lampray"
+  ],
+  "nOS": [
+    "GCC_Linux"
+  ],
+  "redis-leveldb": [
+    "redis-leveldb"
+  ],
+  "Doom8088": ["D8088EM.EXE"],
+  "PIMSim": ["PIMSim.exe"],
+  "EasyRTSPLive": ["EasyRTSPLive.exe"],
+  "TR2Main": [],
+  "kiosk-browser": [],
+  "network_backdoor_scanner": [],
+  "pugl": [],
+  "mvisor-win-vgpu-driver": [],
+  "cam2web": [
+    "cam2web",
+    "web2h"
+  ],
+  "mercury": [
+    "libmercury.a",
+    "libna.a",
+    "libmercury_util.a",
+    "hg_info"
+  ],
+  "navmesh": [
+    "navmesh"
+  ],
+  "from-scratch": [],
+  "pragma": [],
+  "ArduinoDebugger": [],
+  "BlueBus": [],
+  "simdjson_php": [
+    "simdjson.so"
+  ],
+  "kerberos": [],
+  "android-performance": [
+    "app-release-unsigned.apk"
+  ],
+  "EasyCanvas": [],
+  "MSCKF_VIO_MONO": [],
+  "air": [
+    "air.so"
+  ],
+  "is_jsonb_valid": [
+    "is_jsonb_valid.so",
+    "is_jsonb_valid_draft_v7.so"
+  ],
+  "onnxparser-trt-plugin-sample": [],
+  "MESC_Firmware": [],
+  "ssocks": [
+    "nsocks",
+    "rcsocks",
+    "rssocks",
+    "ssocks",
+    "ssocksd"
+  ],
+  "bxxt": [
+    "bxxt"
+  ],
+  "shared": [
+    "rect_parser",
+    "persistent_buffer",
+    "run_sslcrypto"
+  ],
+  "ReSTIR-Vulkan": [],
+  "quartz": [
+    "libnvmemul.so"
+  ],
+  "SaBRe": [
+    "sabre"
+  ],
+  "pgmagick": [
+    "_pgmagick.cpython-310-x86_64-linux-gnu.so"
+  ],
+  "tinywav": [],
+  "libRaptorQ": [
+    "RaptorQ"
+  ],
+  "pepecoin": [
+    "pepecoind",
+    "pepecoin-cli",
+    "pepecoin-tx"
+  ],
+  "laserkbd": [],
+  "SNANDer": [
+    "snander"
+  ],
+  "libmolgrid": [
+    "libmolgrid.so",
+    "libmolgrid.a"
+  ],
+  "leopard": [
+    "liblibleopard.a",
+    "bench_leopard",
+    "experiment_leopard"
+  ],
+  "hpddm": [],
+  "wasm-canvas": [],
+  "nginx-module-sts": [],
+  "sharebox-fs": [
+    "sharebox"
+  ],
+  "esper": [],
+  "freesasa": [
+    "freesasa"
+  ],
+  "ThreadedDepthCleaner": [],
+  "Potato-Injector": [],
+  "vkcube": [
+    "vkcube"
+  ],
+  "BundleFusion_Ubuntu_Pangolin": [
+    "libBundleFusion.so"
+  ],
+  "disting": [],
+  "webserver": [
+    "webserver"
+  ],
+  "kelcoro": [],
+  "hexbright": [],
+  "SLASHEM-Extended": [],
+  "ogz-source": [],
+  "fftocean": [
+    "fftocean"
+  ],
+  "mm3d": [
+    "mm3d"
+  ],
+  "fastq-tools": [
+    "fastq-uniq",
+    "fastq-qualadj",
+    "fastq-qual",
+    "fastq-qscale",
+    "fastq-match",
+    "fastq-kmers",
+    "fastq-grep",
+    "fastq-sample",
+    "fastq-sort"
+  ],
+  "andvaranaut": [
+    "andvaranaut"
+  ],
+  "dht11": [],
+  "rsgeotools": [],
+  "FYSOS": [],
+  "librtmp": [
+    "test"
+  ],
+  "AmBinaryEditor": [
+    "ameditor"
+  ],
+  "arm_adb": [],
+  "NPPTextFX": [],
+  "atto": [
+    "atto"
+  ],
+  "qtserialport": [],
+  "obs-gnome-screencast": [
+    "gnome-mutter-screencast.so"
+  ],
+  "USBRetro": [],
+  "Workflow": [],
+  "open-inventor": [],
+  "LevelDB": [],
+  "CLAIMS": [],
+  "sysuh3c": [
+    "sysuh3c"
+  ],
+  "TFT_ILI9341": [],
+  "PPEnum": [],
+  "notify-forwarder": [],
+  "YAOG": [],
+  "ps2sdk-ports": [],
+  "fvwm95": [],
+  "cocos2dx-classical": [],
+  "cavif": [
+    "cavif"
+  ],
+  "LLAP": [],
+  "cjose": [],
+  "LSASS-Usermode-Bypass": [],
+  "libcrtc": [],
+  "dsl": [],
+  "rvmparser": [
+    "rvmparser"
+  ],
+  "open-usb-can": [],
+  "PLADE": [
+    "PLADE"
+  ],
+  "csldr": [
+    "client.so"
+  ],
+  "euphonium": [],
+  "SourceAutoRecord": [
+    "sar.so"
+  ],
+  "arkproxy": [],
+  "LLVM-9.0-Learner-Tutorial": [],
+  "urdma": [],
+  "NDTMC-LIO-SAM": [],
+  "IMPACTOR": [],
+  "xprompt": [
+    "xprompt"
+  ],
+  "duilib-MiniBlinkBrowser": [],
+  "angelcad": [],
+  "PGE": [
+    "pge"
+  ],
+  "McDebian": [],
+  "DupGen_finder": [
+    "MCScanX"
+  ],
+  "webview-nodejs": [],
+  "lucy": [
+    "Lucy.so"
+  ],
+  "prefix": [
+    "prefix.so"
+  ],
+  "mpio": [
+    "libmpio.a",
+    "libmpio.so.0.0.0"
+  ],
+  "GTInternalAndroid": [],
+  "yuv2rgb": [
+    "a.out"
+  ],
+  "SlicerIGT": [],
+  "kaldi-serve": [],
+  "symexe": [],
+  "oscam-patched-old": [
+    "oscam-1.30_svn11760-801-x86_64-linux-gnu"
+  ],
+  "c-coroutine": [],
+  "eekf": [
+    "eekf.o",
+    "eekf_mat.o",
+    "libeekf.a"
+  ],
+  "armake": [],
+  "WeChatExt": [],
+  "nRF905": [],
+  "py-leveldb-windows": [],
+  "rtthread-esp-idf": [],
+  "MaslOS": [
+    "kernel.elf"
+  ],
+  "DIME": [],
+  "package": [
+    "blitzcc"
+  ],
+  "Opencv-ImageBase": [],
+  "mx": [
+    "libmx-2.0.so.0.9905.0"
+  ],
+  "file-windows": [],
+  "fury3d": [],
+  "ChowDSP-VCV": [
+    "plugin.so"
+  ],
+  "virgil-crypto": [
+    "test_runner"
+  ],
+  "EmbeddedMqttBroker": [],
+  "filepack": [],
+  "database": [],
+  "BypassAV": [],
+  "ntrview-wiiu": [],
+  "weicai-scraper": [],
+  "gtsa": [
+    "test_connect_four.o",
+    "test_isola.o",
+    "test_tic_tac_toe.o"
+  ],
+  "LeetCode": [],
+  "Yet_Another_Bootloader": [],
+  "crashrpt2": [],
+  "TheWiggler": [
+    "TheWiggler"
+  ],
+  "mclinker": [
+    "ld.mcld"
+  ],
+  "iMonkey": [],
+  "luaevent": [
+    "core.so"
+  ],
+  "android_device_xiaomi_libra": [],
+  "httpserver": [],
+  "voxelization_toolkit": [],
+  "gnome-software": [],
+  "dawn": [],
+  "LithiumX": [
+    "LithiumX"
+  ],
+  "CVE-2018-8440": [],
+  "Geomagic_Touch_ROS_Drivers": [],
+  "Pozyx-Arduino-library": [],
+  "poke.AI": [],
+  "SFND_2D_Feature_Tracking": [],
+  "safeboot-loader": [],
+  "cli-gpt": [
+    "cli-gpt"
+  ],
+  "xnu-trace": [],
+  "xendbg": [],
+  "Autonomous-Farm-Robot": [],
+  "spot-on": [
+    "Spot-On-Kernel",
+    "Spot-On-Web-Server-Child"
+  ],
+  "SevSeg": [],
+  "USBAirborne": [],
+  "dplus-c": [
+    "libdp.a"
+  ],
+  "clap-host": [],
+  "mariobros-clock": [],
+  "IL2CPPDumper": [],
+  "UrbanTerror4": [],
+  "openat": [
+    "openat_tests"
+  ],
+  "infact": [
+    "interpreter-test"
+  ],
+  "WPro58": [],
+  "node-gtk": [],
+  "redis-module-shm": [],
+  "undark": [],
+  "ObjLeft": [],
+  "ULTRA": [
+    "DelayExperiments",
+    "Network",
+    "ULTRA",
+    "ULTRAPHAST"
+  ],
+  "SmartAC": [],
+  "ros_caffe": [],
+  "OCR": [],
+  "node_xslt": [],
+  "dynamic_object_detection": [],
+  "clang-mutate": [],
+  "libxd": [
+    "embedfile"
+  ],
+  "popen-noshell": [],
+  "Realtek-PCIe-GBE-NIC-Driver": [],
+  "t1-firmware": [],
+  "Competitive-Programming-Resources": [],
+  "php-extension-sample": [],
+  "sqlite-x": [],
+  "cqmetrics": [
+    "qmcalc"
+  ],
+  "concore": [],
+  "ws_intercept": [],
+  "Quartic": [
+    "Quartic"
+  ],
+  "Vessel-Centerline-Extraction": [],
+  "oosmos": [],
+  "csol": [
+    "csol"
+  ],
+  "web-server": [
+    "speedX"
+  ],
+  "ircDDBGateway": [
+    "ircddbgatewayd"
+  ],
+  "WuaCpuFix": [],
+  "ftpiiu": [],
+  "LyraGameCaptureTheFlag": [],
+  "bsfExamples": [],
+  "newconformist": [],
+  "G1fitting": [
+    "test1",
+    "test2"
+  ],
+  "VALI": [],
+  "obsqr": [
+    "libzbar.so"
+  ],
+  "KINS": [],
+  "uvConvertor": [
+    "uvConvertor-CLI.exe"
+  ],
+  "CprimerPlus-6e-Notes": [],
+  "open-sensor-platform": [],
+  "DosBox": [],
+  "poster": [
+    "poster.so"
+  ],
+  "echidna": [],
+  "BetterPusbackMod": [],
+  "weplanet-desktop": [],
+  "vkOpenArena": [],
+  "otherside": [
+    "assembler",
+    "disassembler",
+    "otherside",
+    "otherside_test_parser",
+    "otherside_test_codegen"
+  ],
+  "alphaman-src": [],
+  "plop": [],
+  "formura": [],
+  "WendzelNNTPd": [
+    "wendzelnntpadm",
+    "wendzelnntpd"
+  ],
+  "kscope": [],
+  "libdetox": [],
+  "android_device_htc_bravo": [],
+  "myLittleBear": [],
+  "Windows-Crunch": [],
+  "piksel": [],
+  "scape": [],
+  "VExDebugger": [],
+  "lightweight-crypto": [
+    "libcryptolw.a"
+  ],
+  "trocksdb": [
+    "blob_dump",
+    "db_repl_stress",
+    "db_stress",
+    "rocksdb_dump",
+    "sst_dump",
+    "write_stress",
+    "block_cache_trace_analyzer",
+    "db_sanity_test",
+    "ldb",
+    "rocksdb_undump",
+    "trace_analyzer"
+  ],
+  "ps2-homebrew-livestreams": [],
+  "ESP32-Morse-Decoder": [],
+  "CarND-MPC-Project": [],
+  "L2": [],
+  "dnsflow": [],
+  "OpenOCD-Nuvoton": [
+    "openocd"
+  ],
+  "csgo_memory_hacking_examples": [],
+  "SignalRecovery": [
+    "libSignalRecovery.so"
+  ],
+  "sketchpad": [],
+  "mpc_local_planner": [],
+  "optimal-transport": [],
+  "thot": [
+    "thot_client",
+    "thot_wg_proc",
+    "pfsm_ecm_for_wg_factory.so.0.0.0",
+    "word_penalty_model_factory.so.0.0.0",
+    "thot_alig_op",
+    "thot_calc_bleu",
+    "thot_calc_swm_lgprob",
+    "thot_check_constraints",
+    "thot_dhs_step_by_step_min",
+    "thot_filter_bin_ilextable",
+    "thot_gen_bin_lex_filter_info",
+    "thot_gen_phr_model",
+    "thot_gen_sw_model",
+    "thot_get_srcsents_from_metadata",
+    "thot_ilm_perp",
+    "thot_li_weight_upd",
+    "thot_ll_weight_upd_nblist",
+    "thot_lm_perp",
+    "thot_lm_weight_upd",
+    "thot_merge_bin_ihmmatable",
+    "thot_merge_bin_iibm2atable",
+    "thot_merge_bin_ilextable",
+    "thot_ms_alig",
+    "thot_ms_dec",
+    "thot_prune_bin_ilextable",
+    "thot_query_pm",
+    "thot_scorer",
+    "thot_server",
+    "thot_sort_bin_ihmmatable",
+    "thot_sort_bin_iibm2atable",
+    "thot_sort_bin_ilextable",
+    "dict_feat__phrscoreinfo_factory.so.0.0.0",
+    "incr_hmm_p0_alig_model_factory.so.0.0.0",
+    "incr_jel_mer_ngram_lm_factory.so.0.0.0",
+    "incr_phrase_model_factory.so.0.0.0",
+    "json_translation_metadata__phrscoreinfo_factory.so.0.0.0",
+    "kb_mira_ll_wu_factory.so.0.0.0",
+    "libthot.so.0.0.0",
+    "mira_bleu_factory.so.0.0.0",
+    "mira_chrf_factory.so.0.0.0",
+    "mira_gtm_factory.so.0.0.0",
+    "mira_wer_factory.so.0.0.0",
+    "multi_stack_decoder_rec__pbtm_factory.so.0.0.0",
+    "multi_stack_decoder_rec__swli_factory.so.0.0.0",
+    "non_pb_ec_model_for_nb_ucat_factory.so.0.0.0",
+    "smoothed_incr_ibm2_alig_model_factory.so.0.0.0",
+    "translation_metadata__phrscoreinfo_factory.so.0.0.0",
+    "wba_incr_phrase_model_factory.so.0.0.0",
+    "wg_processor_for_anlp__pfsm_factory.so.0.0.0",
+    "wg_uncoupled_assisted_trans__pbtm_factory.so.0.0.0",
+    "wg_uncoupled_assisted_trans__swli_factory.so.0.0.0"
+  ],
+  "tracer": [
+    "keyboard"
+  ],
+  "SoftRenderer": [],
+  "NovaLSM": [
+    "nova_server_main",
+    "libleveldb.a",
+    "nova_server_main_debug"
+  ],
+  "genericCC": [],
+  "hostap-wpa3": [
+    "hostapd",
+    "hostapd_cli",
+    "wpa_cli",
+    "wpa_passphrase",
+    "wpa_supplicant"
+  ],
+  "among-us-replay-mod": [],
+  "raster": [],
+  "cppspec": [],
+  "hostapd-rtl8188": [],
+  "gr-rds": [],
+  "game": [],
+  "xls2protobuf": [],
+  "pysubnettree": [
+    "_SubnetTree.so"
+  ],
+  "MazdaRX8Arduino": [],
+  "LKYDeepNN": [],
+  "sqlite": [],
+  "VitaBackup": []
+}

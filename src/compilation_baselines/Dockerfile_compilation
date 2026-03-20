@@ -1,0 +1,86 @@
+FROM ubuntu:22.04
+SHELL ["/bin/bash", "-c"]
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 1. Install minimal prerequisites for adding repositories
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        apt-transport-https \
+        ca-certificates \
+        gnupg \
+        software-properties-common \
+        python3-apt \
+        wget \ 
+        unzip
+
+# 2. Add the security repository for Ubuntu 20.04 and Add the Kitware repository for a newer version of cmake (≥ 3.22)
+
+# RUN wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc | apt-key add - && \
+#     add-apt-repository 'deb https://apt.kitware.com/ubuntu/ focal main'
+# RUN echo "deb http://security.ubuntu.com/ubuntu focal-security main" |  tee /etc/apt/sources.list.d/focal-security.list
+
+# # 3. Add the deadsnakes PPA for Python 3.10
+# RUN add-apt-repository ppa:deadsnakes/ppa
+
+# 4. Update package lists and install required packages.
+#    Note: With the Kitware repository added, 'cmake' will install a recent version.
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        gcc-riscv64-unknown-elf \
+        gdb-multiarch \
+        cmake \
+        git \
+        # python3.10 \
+        python3.10-venv \
+        python3.10-dev \
+        python3-pip \
+        python3-setuptools \
+        python3.10-distutils \
+        python-is-python3 \
+        python3-wheel \
+        file \
+        curl \
+        autoconf \
+        automake \
+        autotools-dev \
+        build-essential \
+        libtool \
+        pkg-config \
+        graphviz \
+        libgraphviz-dev \
+        ninja-build && \
+    rm -rf /var/lib/apt/lists/*
+
+# 5. Create a virtual environment using Python 3.10 and upgrade pip
+RUN python3.10 -m venv /opt/venv && \
+    /opt/venv/bin/pip install --upgrade pip
+
+# 6. Install your Python packages inside the virtual environment
+RUN /opt/venv/bin/pip install \
+        requests \
+        numpy \
+        tqdm \
+        pyautogen \
+        openai \
+        beautifulsoup4 \
+        langchain \
+        langchain-community \
+        pandas \
+        flaml==2.2.0 \
+        cxxfilt \
+        pyjoern \
+        pyelftools \
+        markdownify \ 
+        playwright \
+        tavily-python \
+        pyelftools && \
+        /opt/venv/bin/python -c "import pyjoern" 
+    
+
+RUN /opt/venv/bin/playwright install-deps && /opt/venv/bin/playwright install
+
+ENV CFLAGS="-g -O0"
+ENV CXXFLAGS="-g -O0"
+ENV CPPFLAGS="-g -O0"
+
+ENV JAVA_TOOL_OPTIONS="-Xss4m"

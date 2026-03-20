@@ -1,0 +1,302 @@
+[
+    {
+        "name": "scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy"
+    },
+    {
+        "name": "godot",
+        "url": "https://github.com/godotengine/godot"
+    },
+    {
+        "name": "bitcoin",
+        "url": "https://github.com/bitcoin/bitcoin"
+    },
+    {
+        "name": "opencv",
+        "url": "https://github.com/opencv/opencv"
+    },
+    {
+        "name": "llama.cpp",
+        "url": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+        "name": "netdata",
+        "url": "https://github.com/netdata/netdata"
+    },
+    {
+        "name": "swift",
+        "url": "https://github.com/swiftlang/swift"
+    },
+    {
+        "name": "protobuf",
+        "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    {
+        "name": "redis",
+        "url": "https://github.com/redis/redis"
+    },
+    {
+        "name": "Ventoy",
+        "url": "https://github.com/ventoy/Ventoy"
+    },
+    {
+        "name": "obs-studio",
+        "url": "https://github.com/obsproject/obs-studio"
+    },
+    {
+        "name": "git",
+        "url": "https://github.com/git/git"
+    },
+    {
+        "name": "FFmpeg",
+        "url": "https://github.com/FFmpeg/FFmpeg"
+    },
+    {
+        "name": "php-src",
+        "url": "https://github.com/php/php-src"
+    },
+    {
+        "name": "wrk",
+        "url": "https://github.com/wg/wrk"
+    },
+    {
+        "name": "whisper.cpp",
+        "url": "https://github.com/ggerganov/whisper.cpp"
+    },
+    {
+        "name": "curl",
+        "url": "https://github.com/curl/curl"
+    },
+    {
+        "name": "faiss",
+        "url": "https://github.com/facebookresearch/faiss"
+    },
+    {
+        "name": "serenity",
+        "url": "https://github.com/SerenityOS/serenity"
+    },
+    {
+        "name": "jq",
+        "url": "https://github.com/jqlang/jq"
+    },
+    {
+        "name": "lede",
+        "url": "https://github.com/coolsnowwolf/lede"
+    },
+    {
+        "name": "folly",
+        "url": "https://github.com/facebook/folly"
+    },
+    {
+        "name": "rethinkdb",
+        "url": "https://github.com/rethinkdb/rethinkdb"
+    },
+    {
+        "name": "taichi",
+        "url": "https://github.com/taichi-dev/taichi"
+    },
+    {
+        "name": "openssl",
+        "url": "https://github.com/openssl/openssl"
+    },
+    {
+        "name": "duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+    },
+    {
+        "name": "envoy",
+        "url": "https://github.com/envoyproxy/envoy"
+    },
+    {
+        "name": "v8",
+        "url": "https://github.com/v8/v8"
+    },
+    {
+        "name": "flatbuffers",
+        "url": "https://github.com/google/flatbuffers"
+    },
+    {
+        "name": "Paddle",
+        "url": "https://github.com/PaddlePaddle/Paddle"
+    },
+    {
+        "name": "QtScrcpy",
+        "url": "https://github.com/barry-ran/QtScrcpy"
+    },
+    {
+        "name": "bcc",
+        "url": "https://github.com/iovisor/bcc"
+    },
+    {
+        "name": "ncnn",
+        "url": "https://github.com/Tencent/ncnn"
+    },
+    {
+        "name": "liboqs",
+        "url": "https://github.com/open-quantum-safe/liboqs"
+    },
+    {
+        "name": "cosmopolitan",
+        "url": "https://github.com/jart/cosmopolitan"
+    },
+    {
+        "name": "swoole-src",
+        "url": "https://github.com/swoole/swoole-src"
+    },
+    {
+        "name": "hhvm",
+        "url": "https://github.com/facebook/hhvm"
+    },
+    {
+        "name": "filament",
+        "url": "https://github.com/google/filament"
+    },
+    {
+        "name": "yoga",
+        "url": "https://github.com/facebook/yoga"
+    },
+    {
+        "name": "abseil-cpp",
+        "url": "https://github.com/abseil/abseil-cpp"
+    },
+    {
+        "name": "bgfx",
+        "url": "https://github.com/bkaradzic/bgfx"
+    },
+    {
+        "name": "arrow",
+        "url": "https://github.com/apache/arrow"
+    },
+    {
+        "name": "foundationdb",
+        "url": "https://github.com/apple/foundationdb"
+    },
+    {
+        "name": "mold",
+        "url": "https://github.com/rui314/mold"
+    },
+    {
+        "name": "polybar",
+        "url": "https://github.com/polybar/polybar"
+    },
+    {
+        "name": "dlib",
+        "url": "https://github.com/davisking/dlib"
+    },
+    {
+        "name": "or-tools",
+        "url": "https://github.com/google/or-tools"
+    },
+    {
+        "name": "ninja",
+        "url": "https://github.com/ninja-build/ninja"
+    },
+    {
+        "name": "TensorRT",
+        "url": "https://github.com/NVIDIA/TensorRT"
+    },
+    {
+        "name": "rt-thread",
+        "url": "https://github.com/RT-Thread/rt-thread"
+    },
+    {
+        "name": "thrift",
+        "url": "https://github.com/apache/thrift"
+    },
+    {
+        "name": "z3",
+        "url": "https://github.com/Z3Prover/z3"
+    },
+    {
+        "name": "SFML",
+        "url": "https://github.com/SFML/SFML"
+    },
+    {
+        "name": "sentencepiece",
+        "url": "https://github.com/google/sentencepiece"
+    },
+    {
+        "name": "pcl",
+        "url": "https://github.com/PointCloudLibrary/pcl"
+    },
+    {
+        "name": "kakoune",
+        "url": "https://github.com/mawww/kakoune"
+    },
+    {
+        "name": "hermes",
+        "url": "https://github.com/facebook/hermes"
+    },
+    {
+        "name": "openFrameworks",
+        "url": "https://github.com/openframeworks/openFrameworks"
+    },
+    {
+        "name": "skia",
+        "url": "https://github.com/google/skia"
+    },
+    {
+        "name": "MNN",
+        "url": "https://github.com/alibaba/MNN"
+    },
+    {
+        "name": "renderdoc",
+        "url": "https://github.com/baldurk/renderdoc"
+    },
+    {
+        "name": "monero",
+        "url": "https://github.com/monero-project/monero"
+    },
+    {
+        "name": "re2",
+        "url": "https://github.com/google/re2"
+    },
+    {
+        "name": "kbd-audio",
+        "url": "https://github.com/ggerganov/kbd-audio"
+    },
+    {
+        "name": "poco",
+        "url": "https://github.com/pocoproject/poco"
+    },
+    {
+        "name": "seastar",
+        "url": "https://github.com/scylladb/seastar"
+    },
+    {
+        "name": "GameNetworkingSockets",
+        "url": "https://github.com/ValveSoftware/GameNetworkingSockets"
+    },
+    {
+        "name": "catboost",
+        "url": "https://github.com/catboost/catboost"
+    },
+    {
+        "name": "oatpp",
+        "url": "https://github.com/oatpp/oatpp"
+    },
+    {
+        "name": "neutralinojs",
+        "url": "https://github.com/neutralinojs/neutralinojs"
+    },
+    {
+        "name": "MangoHud",
+        "url": "https://github.com/flightlessmango/MangoHud"
+    },
+    {
+        "name": "redex",
+        "url": "https://github.com/facebook/redex"
+    },
+    {
+        "name": "tinyproxy",
+        "url": "https://github.com/tinyproxy/tinyproxy"
+    },
+    {
+        "name": "nanomq",
+        "url": "https://github.com/nanomq/nanomq"
+    },
+    {
+        "name": "iSulad",
+        "url": "https://github.com/openeuler-mirror/iSulad"
+    }
+]

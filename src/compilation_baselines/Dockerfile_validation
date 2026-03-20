@@ -1,0 +1,14 @@
+FROM buildbench/compilation_base_image:17
+
+# Install java
+RUN apt-get update && \
+    apt-get install -y openjdk-17-jdk \
+    openjdk-17-jre && \
+    rm -rf /var/lib/apt/lists/*
+    
+# Remove an existing /app/src file if any, then create the directory
+RUN rm -f /app/src && mkdir -p /app/src
+
+COPY Compilation_Benchmark/src/compilation_baselines/*.py /app/src/
+WORKDIR /app/src
+ENTRYPOINT ["/opt/venv/bin/python", "/app/src/validation_entry_point.py"]

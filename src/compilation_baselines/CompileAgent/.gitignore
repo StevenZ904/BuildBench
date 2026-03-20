@@ -1,0 +1,7 @@
+logs/*
+compiled_repos/*
+__pycache__
+.env
+logs_75
+cloned_repos/*
+cloned_repos_75/*

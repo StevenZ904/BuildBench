@@ -1,0 +1,68 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: llm-compiler-job-PLACEHOLDER
+spec:
+  completions: 108
+  parallelism: 50
+  completionMode: Indexed
+  backoffLimitPerIndex: 0  # maximal number of failures per index
+  maxFailedIndexes: 108      # maximal number of failed indexes before terminating the Job execution
+
+  # podFailurePolicy:
+  #   rules:
+  #   - action: Count
+  #     onExitCodes:
+  #       # containerName: main      # optional
+  #       operator: NotIn             # one of: In, NotIn
+  #       values: [0]
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: llm-compiler
+          image: buildbench/llm_assisted_compilation_k8s:7
+          imagePullPolicy: Always
+          env:
+            - name: REPO_URL
+              value: "PLACEHOLDER_REPO_URL"
+            - name: JOB_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: "metadata.annotations['batch.kubernetes.io/job-completion-index']"            
+          volumeMounts:
+            - name: nfs-shared
+              mountPath: "/app/compiled_repos"
+              subPath: "user/Compilation_Benchmark/385_higher_split/agents_heuristic-o3-mini-refine-2-rebuttal/compiled_repos"
+            - name: nfs-shared
+              mountPath: "/app/cloned_repos"
+              subPath: "user/Compilation_Benchmark/385_higher_split/cloned_repos" # Same for all
+            - name: nfs-shared
+              mountPath: "/app/autogen_logs"
+              subPath: "user/autogen_logs"
+            - name: nfs-shared
+              mountPath: "/app/compiled_results"
+              subPath: "user/Compilation_Benchmark/385_higher_split/agents_heuristic-o3-mini-refine-2-rebuttal/compiled_results"
+            - name: nfs-shared
+              mountPath: "/app/all_logs"
+              subPath: "user/Compilation_Benchmark/385_higher_split/agents_heuristic-o3-mini-refine-2-rebuttal/all_logs"
+            - name: repos-cm
+              mountPath: /app/config
+          resources:
+            requests:
+              cpu: "5"
+              memory: "10Gi"
+              ephemeral-storage: "20Gi"
+            limits:
+              cpu: "10"
+              memory: "100Gi"
+              ephemeral-storage: "50Gi"
+              
+      volumes:
+        - name: nfs-shared
+          persistentVolumeClaim:
+            claimName: nfs
+        # The volume for ConfigMap
+        - name: repos-cm
+          configMap:
+            name: llm-compiler-repos  # We'll create it from orchestrator.py

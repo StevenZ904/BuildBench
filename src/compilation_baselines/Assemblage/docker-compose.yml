@@ -1,0 +1,79 @@
+networks:
+  default:
+    external:
+      name: assemblage-net
+services:
+
+  # mysql:
+  #   image: mysql:5.7
+  #   container_name: mysql
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: assemblage
+  #     MYSQL_DATABASE: assemblage
+  #     MYSQL_USER: assemblage
+  #     MYSQL_PASSWORD: assemblage
+  #   healthcheck:
+  #     test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "assemblage", "-passemblage"]
+  #     timeout: 5s
+  #     retries: 10
+  #     interval: 5s
+  builder_0:
+    command: python3 /assemblage/example_cluster.py --type builder --id 0
+    depends_on:
+    - rabbitmq
+    - coordinator
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: clang
+    volumes:
+    - ./binaries:/binaries
+  coordinator:
+    command: python3  /assemblage/example_cluster.py --type  coordinator
+    depends_on:
+      # mysql:
+      #   condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    deploy:
+      restart_policy:
+        condition: on-failure
+    image: assemblage-gcc:default
+    ports:
+    - 50052:50052
+    volumes:
+    - shared-data:/binaries
+  rabbitmq:
+    environment:
+      RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS: -rabbit consumer_timeout 900000
+    image: rabbitmq:3-management
+    ports:
+    - '56723'
+    - 5672:5672
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+  scraper_0:
+    command: python3  /assemblage/example_cluster.py --type  scraper  --id 0
+    depends_on:
+    - rabbitmq
+    - coordinator
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
+      restart_policy:
+        condition: on-failure
+    image: assemblage-gcc:default
+    volumes:
+    - shared-data:/binaries
+version: '3'
+volumes:
+  shared-data:
+    driver: local
+    driver_opts:
+      device: ${PWD}/binaries
+      o: bind
+      type: none
